@@ -1,10 +1,15 @@
         * {
             padding: 0%;
             margin: 0%;
-            font-family: Poppins;
+            font-family: Arial, Helvetica, sans-serif;
         }
         
         body {
+            /* display: flex;
+            gap: 235px; */
+        }
+
+        .section-modles{
             display: flex;
             gap: 235px;
         }
@@ -102,7 +107,7 @@
             width: 50%;
         }
         
-        a {
+        .section-modles a {
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -147,7 +152,7 @@
             margin-left: 70px;
         }
         
-        button {
+      .section-modles  button {
             width: 115px;
             height: 33px;
             background-color: #3E3536;
