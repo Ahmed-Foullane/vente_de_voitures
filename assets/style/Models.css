@@ -1,0 +1,280 @@
+        * {
+            padding: 0%;
+            margin: 0%;
+            font-family: Poppins;
+        }
+        
+        body {
+            display: flex;
+            gap: 235px;
+        }
+        
+        #side-bare {
+            width: 337px;
+            height: 2700px;
+            background-color: #3E3536;
+            display: flex;
+            flex-direction: column;
+            gap: 240px;
+        }
+        
+        .side-bare {
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        .two-in-line {
+            display: flex;
+            justify-content: center;
+            flex-grow: 3;
+            height: 150px;
+            flex-basis: 100%;
+            gap: 110px;
+        }
+        
+        .rev {
+            display: flex;
+            justify-content: end;
+            width: 356px;
+            background-color: #FFFFFF;
+            border-radius: 36px;
+            box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+        }
+        
+        #models-form {
+            padding: 0%;
+            margin: 0%;
+            font-family: Poppins;
+            display: flex;
+            flex-direction: column;
+            gap: 183px;
+        }
+        
+        .pixel h2 {
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        .m8 {
+            background-color: #FFFFFF;
+            border-radius: 36px;
+            box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+        }
+        
+        .e220 {
+            background-color: #FFFFFF;
+            border-radius: 36px;
+            box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+            width: 350px;
+        }
+        
+        .e220 img {
+            width: 100%;
+        }
+        
+        .a5 {
+            background-color: #FFFFFF;
+            border-radius: 36px;
+            box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+            width: 365px;
+        }
+        
+        .one-in-line {
+            display: flex;
+            justify-content: center;
+            height: 150px;
+            flex-basis: 100%;
+            gap: 110px;
+        }
+        
+        .ford {
+            background-color: #FFFFFF;
+            border-radius: 36px;
+            box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+        }
+        
+        .card1 {
+            display: flex;
+            justify-content: space-evenly;
+        }
+        
+        .card1 div {
+            width: 50%;
+        }
+        
+        a {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 22px;
+        }
+        
+        #pixel-marge {
+            margin-left: 140px;
+        }
+        
+        .lfa img {
+            margin-left: 26px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .brand {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 26px;
+            position: relative;
+        }
+        
+        .square1 {
+            width: 20px;
+            height: 20px;
+            border: solid 4px;
+            position: absolute;
+            border-radius: 3px;
+            top: 50px;
+            left: 10px;
+        }
+        
+        .brand h3 {
+            display: flex;
+            flex-direction: column;
+            margin-left: 55px;
+        }
+        
+        .brand p {
+            margin-left: 70px;
+        }
+        
+        button {
+            width: 115px;
+            height: 33px;
+            background-color: #3E3536;
+            color: #FFFFFF;
+            font-size: 16px;
+            border-radius: 8px;
+        }
+        
+        .card3 {
+            display: flex;
+            justify-content: space-evenly;
+            gap: 365px;
+        }
+        
+        .card2 a {
+            margin-left: 40px;
+        }
+        
+        .square2 {
+            width: 20px;
+            height: 20px;
+            border: solid 4px;
+            position: absolute;
+            border-radius: 3px;
+            top: 100px;
+            left: 10px;
+        }
+        
+        .square3 {
+            width: 20px;
+            height: 20px;
+            border: solid 4px;
+            position: absolute;
+            border-radius: 3px;
+            top: 150px;
+            left: 10px;
+        }
+        
+        .square4 {
+            width: 20px;
+            height: 20px;
+            border: solid 4px;
+            position: absolute;
+            border-radius: 3px;
+            top: 200px;
+            left: 10px;
+        }
+        
+        .square5 {
+            width: 20px;
+            height: 20px;
+            border: solid 4px;
+            position: absolute;
+            border-radius: 3px;
+            top: 250px;
+            left: 10px;
+        }
+        
+        .square6 {
+            width: 20px;
+            height: 20px;
+            border: solid 4px;
+            position: absolute;
+            border-radius: 3px;
+            top: 300px;
+            left: 10px;
+        }
+        
+        .square7 {
+            width: 20px;
+            height: 20px;
+            border: solid 4px;
+            position: absolute;
+            border-radius: 3px;
+            top: 50px;
+            left: 10px;
+        }
+        
+        .square8 {
+            width: 20px;
+            height: 20px;
+            border: solid 4px;
+            position: absolute;
+            border-radius: 3px;
+            top: 100px;
+            left: 10px;
+        }
+        
+        .square9 {
+            width: 20px;
+            height: 20px;
+            border: solid 4px;
+            position: absolute;
+            border-radius: 3px;
+            top: 50px;
+            left: 10px;
+        }
+        
+        .square10 {
+            width: 20px;
+            height: 20px;
+            border: solid 4px;
+            position: absolute;
+            border-radius: 3px;
+            top: 100px;
+            left: 10px;
+        }
+        
+        hr {
+            border-bottom-width: 1px;
+            border-bottom-style: solid;
+            border-bottom-color: #C7C7C7;
+            margin: 0 20px 20px 15px;
+        }
+        
+        #para {
+            margin-left: 35px;
+        }
+        
+        .e220 div a {
+            margin-right: 30px;
+        }
+        
+        .ford div a {
+            margin-right: 30px;
+        }
+        
+        .m8 div a {
+            margin-right: 40px;
+        }
