@@ -79,7 +79,7 @@ function registerUserAndChangeUrl() {
   localStorage.setItem("userInfo", JSON.stringify(user));
   userJson = JSON.parse(localStorage.getItem("userInfo"));
   changeStyleIfUserLoginOrExist();
-  location.href = "pages/index.html";
+  location.href = "index.html";
 }
 
 function changeStyleIfUserLoginOrExist() {
@@ -106,7 +106,7 @@ logInBtn?.addEventListener("click", (e) => {
   ) {
     sendUserDataToStorage(true);
     changeStyleIfUserLoginOrExist();
-    location.href = "pages/index.html";
+    location.href = "index.html";
   } else {
     Swal.fire({
       icon: "error",
