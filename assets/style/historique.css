@@ -1,0 +1,163 @@
+/* historique Section */
+
+
+
+.historique-container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    gap:20px;
+    
+}
+.historique-contain {
+    background-color: #DD5B5B;
+    width: 50%;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 7px 7px;
+}
+
+.historique-contain-order{
+    background-color: #DD5B5B;
+    width: 50%;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 7px 7px;
+    
+}
+.historique-image{
+    width: 50px;
+    height: 40px; 
+    padding-top: 4px;
+}
+.historique-panier{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.historique-image1{
+    width: 100px;
+    height: 50px;
+    padding-top: 15px;
+}
+
+.historique-image2{
+   
+   height: 200px;
+   padding-top: 70px;
+}
+
+
+.historique-commande{
+    display: flex;
+    gap: 40px;
+    margin-top: 100px;
+}
+.historique-nombre-commande{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 15px;
+}
+.historique-button{
+    padding-left: 30px;
+    width: 40px;
+    min-height: 30px;
+    background: #3E3536;
+    color: white;
+    border-radius: 2px;
+    border: #3E3536 2px solid;
+}
+.historique-nombre-commande button:hover{
+    background-color: #DD5B5B;
+}
+.historique-image3{
+   
+    height: 170px;
+    padding-top: 90px;
+    right: 40px;
+ }
+ .historique-image4{
+   
+    height: 170px;
+    width:350px ;
+    padding-top: 90px;
+    
+ }
+ .historique-container1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    gap: 30px;
+    align-items: start;
+    padding-inline: 30px;
+ }
+ .historique-contain2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    gap: 20px;
+ }
+ .historique-facture{
+    width: 90%;
+    font-size: xx-large;
+    text-align: center;
+    color:#011C2A;
+  
+    
+ }
+ .historique-p-d{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+  
+ }
+ .historique-totalpayer{
+    font-size: xx-large;
+ }
+ .historique-totatapayer{
+    font-size:medium;
+ }
+ .historique-container2{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    
+ }
+ .historique-container3{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 30px;
+ }
+
+
+@media  (max-width:990px){
+    .historique-container{
+        flex-direction: column;
+        margin: auto;
+    }
+    .historique-contain{
+        width: 100%;
+    }
+    .historique-contain-order{
+        width: 100%;
+    }
+    .historique-container1{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .historique-commande{
+        margin-top: 0;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+}
